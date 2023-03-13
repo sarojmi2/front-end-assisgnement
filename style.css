@@ -1,1 +1,35 @@
 @import "./Navigation/navigation.css";
+@import "./card/card.css";
+@import "./CTA/cta.css";
+@import "./Form/form.css";
+@import "./footer/footer.css";
+
+body {
+   /*  overflow: hidden; */
+}
+.card-section{
+    position: relative;
+    top: 150px;
+}
+.hero-image__cta{
+    position: relative;
+    top: 144px;
+}
+.contact-form{
+    position: relative;
+    top: 145px;
+    
+}
+footer{
+    position: relative;
+    top:170px;
+    overflow: hidden;
+}
+@media screen and (min-width: 50rem) {
+    .hero-image__cta {
+        position: inherit;
+    }
+    .contact-form{
+        margin: 10px 110px;
+    }
+}

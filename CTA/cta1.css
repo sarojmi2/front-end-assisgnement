@@ -1,0 +1,50 @@
+/* .cta-container{
+    position: relative;
+} */
+.cta-image{
+    position: absolute;
+    width: 100%;
+}
+
+.cta{
+    display: block;
+    position: relative;
+    top: 350px;
+    left: 33px;
+    font-size: 47px;
+    border: 5px solid white;
+    width: 500px;
+    background: #545254;
+    border-radius: 10px;
+    opacity: 0.5;
+    text-align: center;
+    padding: 0;
+    margin: 10px 0 20px 20px;
+    color: #fefcd1;
+    font-weight: 800;
+    
+}
+.cta:hover{
+    opacity: .9;
+}
+.cta a {
+    text-decoration: none;
+    background: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.cta-overlay{
+    position: relative;
+}
+.cta-overlay::before{
+    top:5px;
+    left:5px;
+}
+.cta-button{
+    margin-bottom: 15px;
+}
+.cta-container:hover .cta {
+    top: 300px;
+    opacity: .9;
+  }
