@@ -1,0 +1,28 @@
+
+ CASE 3 nested functions
+const User = { uname: "tom", role: "member", getName: function(){ 
+ console.log(this); 
+ console.log(this.name); getRole = () =>{ console.log(this); 
+ user console.log(this.uname) }  getRole(); }}; const User = { uname: "tom", role: "member", getName: function(){ 
+ console.log(this); 
+ console.log(this.name); function getRole { console.log(this); 
+ user console.log(this.uname) }  getRole(); }}; User.getName();User.getName(); 
+ this refers to on which your function is calling
+ CASE 2 : function as method
+ Normal function/method
+ const User = { name: "tom", getName: function() { console.log(this.name); 
+ this gets define where the FAF is defined  }}; 
+ FAF functionconst User = { name: "tom", getName: () => { console.log(this.name); 
+ this gets define where the FAF is defined  }}; User.getName(); 
+ this refers to on which your function is calling
+ object Literal
+ const User1 = new Object(); 
+ const Obj = {
+ name: "",
+ getName: function(){ }
+ }
+ Obj.name;
+ Obj.getName()
+ CASE 1
+ let age = 34;function getName(){ var age = 45; console.log(this.age);}getName(); 
+ window.getName()const getRole = () => { console.log(this.age);} getRole()
