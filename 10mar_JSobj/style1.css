@@ -4,15 +4,29 @@ body {
 .container {
      box-shadow: 2px 2px 5px 5px #aaaaaa;
      width: 300px;
+     
+}
+.top {
+    display: grid;
+     grid-template-columns:150px 150px;
+}
+.topLeft p{
+    margin-bottom: 0;
+}
+.topRightTop{
+    margin-top: 45px;
+}
+.topRight p {
+    font-weight: bold;
 }
 button{
     height: 20px;
 }
 input{
     height: 15px;
-    width: 25px;
-    pointer-events: none;
-    
+    width: 35px;
+    border: none;
+    pointer-events: none;   
 }
 .left {
     display: flex;

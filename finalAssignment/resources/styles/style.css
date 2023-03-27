@@ -1,0 +1,184 @@
+:root{
+    --Logo-Font-family: Lato;
+    --logo-font-style: Regular;
+    --logo-font-size: 36px;
+    --logo-lLine-height: 43.2px;
+    --logo-color:#1D1D1D;
+    --menu-color: #024E82;
+    --menu-font-family: Arimo;
+    --menu-font-style: Bold;
+    --menu-font-size: 12px;
+    --menu-line-height: 14px;
+    --hero-img-width : 1366px;
+    --kero-font-style: ExtraBold;
+    --font-size: 48px;
+    --font-family-arimo : "Arimo", sans-serif;
+    --font-family-arimo : "Lato", sans-serif;
+    
+}
+body{
+    font-family: "Arimo", "Lato", "Baloo",sans-serif;
+}
+main{
+    margin: 0 40px;
+    margin-top: 134px;
+}
+header{
+    z-index: 1000;
+    position: fixed;
+    background-color: #FFFFFF;
+}
+.nav-main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 376%;
+    background: #ffffff;
+}
+.nav-header{
+    font-family: "lato";
+    font-size: 26px;
+    margin-top: 6px;
+    width: 16px;
+}
+.nav-menu  {
+    display: flex;
+    margin-top: 37px;
+    font-family: "Arimo";
+    font-weight: 700;
+    
+}
+.search{
+margin-top: 37px;
+margin-left: 68px;
+
+}
+.nav-menu > li {
+    margin: 0 15px;
+    font-size: 12px;
+    color: #000000;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+}
+.fa-regular{
+    margin-left: 15px;
+}
+.hero {
+    height: 650px;
+    position: relative;
+    top: 96px;
+}
+picture > img{
+   width: 100%;
+    height: 648px;
+    object-fit: cover;
+
+}
+
+.hero-img__overlap{
+    position: relative;
+    bottom: 480px;
+    left: 750px;
+    font-family: 'Lato';
+    color: #FFFFFF;
+    width: 451px;
+    font-size: 34px;
+    text-align: center;
+}
+.hero-img__overlap > button {
+    background: none;
+    border: 4px solid #FFFFFF;
+    padding: 15px;
+    color: #fff;
+    font-size: 20px;
+}
+.title , .title2{
+    text-align: center;
+    margin: 50px 0;
+}
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(4 , auto);
+    justify-content: center;
+}
+.product-card {
+    text-align: center;
+    margin: 0 5px;
+}
+.product-card > img{
+  width:  295px;
+  height: 342px;
+}
+.product-card > p
+{
+    color :#024E82;
+}
+.product-support{
+    display: flex;
+    margin: 50px 0;
+}
+.support{
+    margin: 0 40px;
+}
+.support > h4{
+    display: inline;
+    font-family: "Baloo",sans-serif;
+    font-size: 10px;
+}
+.support > p{
+    font-family: "Lato",sans-serif;
+    font-size: 10px;
+    margin-left: 24px;
+}
+.offer{
+    display: grid;
+    grid-template-columns: 60% auto;
+    text-align: center;
+}
+.offer-card{
+    background: #1D1D1D;
+    display: inline;
+    align-items: center;
+    padding: 78px;
+    margin:0 5px ;
+    color: #FFFFFF;
+}
+.shop{
+    text-align: center;
+    margin: 78px;
+}
+.shop > button {
+    font-family: 'Lato';
+    color: #ffffff;
+    border: 0;
+    background: #024E82;
+    padding: 18px;
+}
+footer{
+    display: grid;
+    grid-template-columns: 20% 20% 20% auto;
+    grid-gap: 60px;
+    margin-top: 30px;
+}
+footer , ul{
+    list-style-type: none;
+    padding: 0;
+    line-height: 20px;
+}
+footer ,h3{
+    font-size: 12px;
+    font-style: Bold;
+}
+.right-logos{
+    grid-column: 4;
+}
+.right-logos > img{
+    width: 56px;
+    height: 34px;
+}
+.getin-known > input{
+    border: 0;
+    border-bottom: 1px solid #555555;
+}

@@ -1,0 +1,129 @@
+.product_detail{
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    gap:30px;
+}
+.product_page{
+    position: relative;
+    top: 98px;
+    margin: 0 40px;
+    margin-bottom: 150px;
+}
+.product_more{
+    margin-right: 100px;
+}
+h4{
+    font-family: 'Arimo';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+margin-bottom: 0;
+}
+.product_img{
+    width: 550px;
+    height: 685px;
+}
+.product_img > img {
+    width: 550px;
+    height: 685px;
+}
+.fa-star {
+    width: 0px;
+    height: 20px;
+color:#D6763C
+}
+.price, .offer_price{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 0;
+    padding: 0 5px;
+}
+.price{
+    text-decoration: line-through;
+}
+.desc{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+}
+.add_cart{
+    margin: 30px 0;
+}
+.add_cart > a{
+    width: 165px;
+height: 48px;
+padding: 12px;
+background: #024E82;
+color: #FFFFFF;
+}
+select {
+    padding: 7px 22px;
+    background: #EBEBEB;
+    
+}
+.size-select > span {
+    padding-right: 15px;    
+}  
+#size *
+{
+ border-radius: 15px;
+ border: 1px solid #EBEBEB;
+}
+.size-select select option{
+    box-sizing: border-box;
+    width: 210px;
+    height: 48px;
+    left: 0px;
+    top: 48px;
+
+    background: #FBFBFB;
+    border: 1px solid #EBEBEB;
+}
+.catinfo{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px
+}
+.product_desc{
+    margin: 75px 0;
+}
+.description{
+    margin-bottom: 25px;
+}
+.description span{
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    background: #FBFBFB;
+    border: 1px solid #EBEBEB;
+    padding: 15px;
+}
+.description span:hover{
+    border: 2px solid #7b7474;
+}
+.desc_text{
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+}
+.desc_text p{
+    padding: 35px; 
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;  
+}
+@media screen and (min-width: 992px) {
+    .product_detail{
+        flex-direction: row;
+        
+    }
+ }
+ @media screen and (min-width: 768px) {
+     
+  }

@@ -1,0 +1,71 @@
+
+.cart{
+    padding-top: 150px;
+    
+}
+.cart_list , .cart_header{
+    display: grid;
+    border-bottom: 1px solid #EBEBEB;
+    padding: 15px 0;
+}
+
+.cart_header > div{
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+.cart_list > div{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.cart_list > input{
+    width:15px;
+}
+.cart_list > .cart_product {
+    font-family: 'Baloo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.cart_total{
+    margin-top: 84px;
+    margin-left: 34px;
+}
+.total_text{
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+}
+.total_data{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    width: 456px;
+}
+.total_data > p {
+    border-bottom: 1px solid #E5E5E5;
+    padding: 10px 0;
+}
+.total_data  span {
+    padding-left: 336px;
+}
+.total{
+    font-weight: 700;
+    font-size: 16px;
+}
+@media screen and (min-width: 992px) {
+    .cart_list , .cart_header{
+        grid-template-columns: repeat(4,1fr);
+    }
+    .cart{
+        padding-left: 459px;
+    }
+ }
+ @media screen and (min-width: 768px) {
+     
+  }

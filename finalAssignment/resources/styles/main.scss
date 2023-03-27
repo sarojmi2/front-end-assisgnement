@@ -1,0 +1,142 @@
+@import "./footer";
+@import "./header";
+@import "./hero2";
+@import "./about";
+:root{
+    --logo-font-style: Regular;
+    --logo-font-size: 36px;
+    --logo-lLine-height: 43.2px;
+    --black-color:hwb(0 11% 89%);
+    --blue-color: #024E82;
+    --white-color: #FFFFFF;
+    --menu-font-family: Arimo;
+    --font-size: 48px;
+    --font-family-arimo : "Arimo", sans-serif;
+    --font-family-lato : "Lato", sans-serif;
+    --font-family-balino : "Balino", sans-serif;
+    
+}
+body{
+    font-family: "Arimo", "Lato", "Baloo",sans-serif;
+}
+main{
+    margin: 0 40px;
+    margin-top: 134px;
+}
+
+.hero {
+    height: 650px;
+    position: relative;
+    top: 96px;
+}
+.hero_pic > img{
+   width: 100%;
+    height: 648px;
+    object-fit: cover;
+
+}
+
+.hero-img__overlap{
+    position: relative;
+    bottom: 480px;
+    left: 750px;
+    font-family: 'Lato';
+    color: var(--white-color);
+    width: 451px;
+    font-size: 34px;
+    text-align: center;
+}
+.hero-img__overlap > button {
+    background: none;
+    border: 4px solid var(--white-color);
+    padding: 15px;
+    color: var(--white-color);
+    font-size: 20px;
+}
+.title , .title2{
+    text-align: center;
+    margin: 50px 0;
+}
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(1 , auto);
+    justify-content: center;
+}
+.product-card {
+    text-align: center;
+    margin: 0 5px;
+}
+.product-card > img{
+  width:  295px;
+  height: 342px;
+}
+.product-card > p
+{
+    color :var(--blue-color);
+}
+.product-support{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+    justify-content: center;
+}
+.support{
+    margin: 0 40px;
+}
+.support > h4{
+    display: inline;
+    font-family: "Baloo",sans-serif;
+    font-size: 10px;
+}
+.support > p{
+    font-family: "Lato",sans-serif;
+    font-size: 10px;
+    margin-left: 24px;
+}
+.offer{
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: center;
+    gap: 15px;
+}
+.offer-card{
+    background: var(--black-color);
+    display: inline;
+    align-items: center;
+    padding: 78px;
+    margin:0 5px ;
+    color: var(--white-color);
+}
+.shop{
+    text-align: center;
+    margin: 78px;
+}
+.shop > button {
+    font-family: 'Lato';
+    color: var(--white-color);
+    border: 0;
+    background: var(--blue-color);
+    padding: 18px;
+}
+
+@media screen and (min-width: 900px) {
+    .product-grid {
+        grid-template-columns: repeat(4 , auto);
+    }
+    .offer {
+        grid-template-columns: 60% auto;
+    }
+    .product-support{
+        flex-direction: row;
+    }
+   
+  }
+
+  @media screen and (min-width: 600px) {
+    .product-grid {
+        grid-template-columns: repeat(4 , auto);
+    }
+    .product-support{
+        flex-direction: row;
+    }
+  }

@@ -1,0 +1,39 @@
+footer{
+    display: grid;
+    grid-template-columns: repeat(1 , auto);
+    margin-top: 30px;
+    margin-left: 45px;
+}
+footer , ul{
+    list-style-type: none;
+    padding: 0;
+    line-height: 20px;
+}
+footer ,h3{
+    font-size: 12px;
+    font-style: Bold;
+}
+.right-logos{
+    grid-column: 4;
+}
+.right-logos > img{
+    width: 56px;
+    height: 34px;
+}
+.getin-known > input{
+    border: 0;
+    border-bottom: 1px solid #555555;
+}
+
+@media screen and (min-width: 992px) {
+   .footer{
+     display: grid;
+     grid-template-columns: repeat(4, auto);
+   }
+}
+@media screen and (min-width: 768px) {
+    .footer{
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+    }
+ }
